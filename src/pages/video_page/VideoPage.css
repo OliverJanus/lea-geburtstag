@@ -14,9 +14,8 @@
   align-items: center;
   padding: 3vw;
 
-  iframe {
+  video {
     width: 100%;
-    aspect-ratio: 16 / 9;
   }
 }
 
