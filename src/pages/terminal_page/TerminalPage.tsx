@@ -6,7 +6,7 @@ const RIDDLE_MSG = `Gesucht wird der Name einer Veranstaltung.
 
 Sie war nie groß.
 Sie war nie öffentlich.
-Aber für die Menschen die dabei waren, was sie was Besonderes.
+Aber für die Menschen die dabei waren, war sie was Besonderes.
 
 Manche Namen kennt man in der ganzen Welt. 
 Diesen kennen nur eine Handvoll.`;
