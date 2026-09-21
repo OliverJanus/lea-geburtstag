@@ -4,9 +4,10 @@ function VideoPage() {
   return (
     <div className="video-page">
       <div className="video-container">
-        <video controls>
+        {/* <video controls>
           <source src="test.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+        <iframe src="https://drive.google.com/file/d/1DE9nOFyRu4Ps9o2Emggo29XkLL-PQGF6/preview" />
       </div>
       <div className="loading-overlay">
         <div className="unlock-icon">
