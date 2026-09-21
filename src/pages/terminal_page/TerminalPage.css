@@ -1,0 +1,52 @@
+.terminal-page {
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+
+  background-color: #000;
+  color: rgb(0, 255, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+}
+
+.chat-log {
+  text-align: left;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  span {
+    white-space: pre-wrap;
+    position: relative;
+  }
+
+  & > * {
+    padding-inline: 2rem;
+  }
+}
+
+.terminal-output {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column-reverse;
+  overflow-y: auto;
+}
+
+.terminal-input {
+  display: flex;
+  background-color: rgba(0, 255, 0, 0.1);
+  padding-block: 0.5rem;
+
+  input {
+    width: 100%;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+  }
+}
