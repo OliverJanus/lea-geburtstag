@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function usePasswordVerification(password: string): [boolean, (inputPassword: string) => boolean] {
-  const [isPasswordCorrect, setIsPasswordCorrect] = useState(true);
+  const [isPasswordCorrect, setIsPasswordCorrect] = useState(false);
 
   function verifyPassword(inputPassword: string): boolean {
     if (inputPassword.toLowerCase() === password.toLowerCase()) {
