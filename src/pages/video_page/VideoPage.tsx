@@ -5,7 +5,7 @@ function VideoPage() {
     <div className="video-page">
       <div className="video-container">
         <video controls>
-          <source src="test.mp4" type="video/mp4" />
+          <source src="video.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="loading-overlay">
